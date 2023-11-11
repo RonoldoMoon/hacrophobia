@@ -1,7 +1,7 @@
 #include <fcntl.h>
 #include <stdio.h>
 #include <unistd.h>
-#include "acrophobia.h"
+#include "hacrophobia.h"
 
 //blobib blops.
 
@@ -32,6 +32,7 @@ void welcome ()  {
   printf ("May the only board you feel be a game\n\n");
 }
 
+/*
 int main (int argc, char* pink[])  {
 
   int choice;
@@ -64,3 +65,4 @@ int main (int argc, char* pink[])  {
   return 0;
 }
 
+*/

@@ -1,0 +1,70 @@
+moon@DarkStar:~$ nc irc.freenode.net 6667
+:*.freenode.net NOTICE * :*** Looking up your ident...
+:*.freenode.net NOTICE * :*** Looking up your hostname...
+:*.freenode.net NOTICE * :*** Found your hostname (d173-180-211-35.bchsia.telus.net) -- cached
+CAP LS
+NICK MoonyMoon
+USER moon moon localhost :Ronoldo Moon
+:*.freenode.net CAP * LS :account-notify account-tag away-notify batch cap-notify chghost draft/relaymsg echo-message extended-join inspircd.org/poison inspircd.org/standard-replies invite-notify labeled-response message-tags multi-prefix sasl server-time setname userhost-in-names 
+PING :{DPcEwohoh
+:*.freenode.net NOTICE MoonyMoon :*** Ident lookup timed out, using ~moon instead.
+CAP END
+PONG :{DPcEwohoh
+:*.freenode.net 001 MoonyMoon :Welcome to the freenode IRC Network MoonyMoon!~moon@d173-180-211-35.bchsia.telus.net
+:*.freenode.net 002 MoonyMoon :Your host is *.freenode.net, running version InspIRCd-3
+:*.freenode.net 003 MoonyMoon :This server was created 09:22:41 Jun 22 2023
+:*.freenode.net 004 MoonyMoon *.freenode.net InspIRCd-3 BDHILRSTWcdghikorswxz ABCDEFIJKLMNOPQRSTUWXYZbcdefhijklmnoprstuvwz :BEFIJLWXYZbdefhjklovw
+:*.freenode.net 005 MoonyMoon ACCEPT=30 AWAYLEN=200 BOT=B CALLERID=g CASEMAPPING=ascii CHANLIMIT=#:20 CHANMODES=IXZbew,k,BEFJLWdfjl,ACDKMNOPQRSTUcimnprstuz CHANNELLEN=64 CHANTYPES=# ELIST=CMNTU ESILENCE=CcdiNnPpTtx EXCEPTS=e :are supported by this server
+:*.freenode.net 005 MoonyMoon EXTBAN=,ACNOQRSTUacjmnpruwz HOSTLEN=64 INVEX=I KEYLEN=32 KICKLEN=255 LINELEN=512 MAXLIST=I:100,X:100,b:100,e:100,w:100 MAXTARGETS=20 MODES=20 MONITOR=30 NAMELEN=128 NAMESX NETWORK=freenode :are supported by this server
+:*.freenode.net 005 MoonyMoon NICKLEN=30 PREFIX=(Yohv)!@%+ REMOVE SAFELIST SECURELIST=60 SILENCE=32 STATUSMSG=!@%+ TOPICLEN=390 UHNAMES USERIP USERLEN=10 USERMODES=,,s,BDHILRSTWcdghikorwxz VBANLIST :are supported by this server
+:*.freenode.net 005 MoonyMoon VLIST=b WATCH=32 WHOX :are supported by this server
+:*.freenode.net 251 MoonyMoon :There are 17 users and 7345 invisible on 9 servers
+:*.freenode.net 252 MoonyMoon 8 :operator(s) online
+:*.freenode.net 253 MoonyMoon 15 :unknown connections
+:*.freenode.net 254 MoonyMoon 11404 :channels formed
+:*.freenode.net 255 MoonyMoon :I have 2669 clients and 1 servers
+:*.freenode.net 265 MoonyMoon :Current local users: 2669  Max: 4101
+:*.freenode.net 266 MoonyMoon :Current global users: 7362  Max: 10281
+:*.freenode.net 375 MoonyMoon :*.freenode.net message of the day
+:*.freenode.net 372 MoonyMoon :  Hello, World!
+:*.freenode.net 372 MoonyMoon : 
+:*.freenode.net 372 MoonyMoon :  Welcome to the
+:*.freenode.net 372 MoonyMoon :          __                               _
+:*.freenode.net 372 MoonyMoon :         / _|_ __ ___  ___ _ __   ___   __| | ___
+:*.freenode.net 372 MoonyMoon :        | |_| '__/ _ \/ _ \ '_ \ / _ \ / _` |/ _ \
+:*.freenode.net 372 MoonyMoon :        |  _| | |  __/  __/ | | | (_) | (_| |  __/
+:*.freenode.net 372 MoonyMoon :        |_| |_|  \___|\___|_| |_|\___/ \__,_|\___|
+:*.freenode.net 372 MoonyMoon :                                   AUTONOMOUS ZONE
+:*.freenode.net 372 MoonyMoon : 
+:*.freenode.net 372 MoonyMoon :  Connect to us on:
+:*.freenode.net 372 MoonyMoon : 
+:*.freenode.net 372 MoonyMoon :  Hostname: irc.freenode.net / chat.freenode.net
+:*.freenode.net 372 MoonyMoon :  Plaintext: 6660-6669
+:*.freenode.net 372 MoonyMoon :  TLS/SSL: 6697,7000,7070
+:*.freenode.net 372 MoonyMoon :  Webchat: https://webchat.freenode.net
+:*.freenode.net 372 MoonyMoon : 
+:*.freenode.net 372 MoonyMoon :  By connecting to freenode you indicate that you have read and accept our
+:*.freenode.net 372 MoonyMoon :  policies and guidelines as set out on https://freenode.net and agree to
+:*.freenode.net 372 MoonyMoon :  be scanned for an open proxy.
+:*.freenode.net 372 MoonyMoon : 
+:*.freenode.net 372 MoonyMoon :  If you are looking for assistance, please try:
+:*.freenode.net 372 MoonyMoon : 
+:*.freenode.net 372 MoonyMoon :  #help                    - Help with general IRC and Services.
+:*.freenode.net 372 MoonyMoon :  #chanhelp                - Help with channels and channel services.
+:*.freenode.net 372 MoonyMoon :  #IRC                     - Help with the IRC.com by freenode app.
+:*.freenode.net 372 MoonyMoon : 
+:*.freenode.net 372 MoonyMoon :  Checkout some of our communities and services:
+:*.freenode.net 372 MoonyMoon : 
+:*.freenode.net 372 MoonyMoon :  #freenode-bbs            - BBS [https://bbs.freenode.net/]
+:*.freenode.net 372 MoonyMoon :  #freenode-bbs-discussion - BBS Discussion
+:*.freenode.net 372 MoonyMoon :  #freenode-jobs           - Jobs [https://jobs.freenode.net/]
+:*.freenode.net 372 MoonyMoon :  #freenode                - Chat about freenode.
+:*.freenode.net 372 MoonyMoon :  #anonchan                - Chat anonymously.
+:*.freenode.net 372 MoonyMoon : 
+:*.freenode.net 372 MoonyMoon :  Type /join #<channel>
+:*.freenode.net 372 MoonyMoon : 
+:*.freenode.net 372 MoonyMoon :  Thank you for using freenode!
+:*.freenode.net 376 MoonyMoon :End of message of the day.
+:*.freenode.net 396 MoonyMoon freenode-kkr.r06.mdmtdg.IP :is now your displayed host
+:MoonyMoon!~moon@freenode-kkr.r06.mdmtdg.IP MODE MoonyMoon :+wRix
+:Global!services@services.freenode.net NOTICE MoonyMoon :[Random News - Oct 27 04:08:42 2023 UTC] ? Join us in #trivia for a thrilling trivia showdown! Test your knowledge and have a blast with us! ??
