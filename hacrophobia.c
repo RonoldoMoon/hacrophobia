@@ -26,10 +26,11 @@ unsigned char RandChar()  {
 }
 
  
-void welcome ()  {
- puts(thing);
-  printf ("Welcome to the infancy stages of the game Retro Acrophobia!  Bringing back the fear of acronyms into your home\n");
-  printf ("May the only board you feel be a game\n\n");
+void welcome (int fd)  {
+
+  dprintf(fd, "%s\r\n", thing);
+  dprintf(fd, "Welcome to the official unofficial Hacrophobia game!  Bringing back the fear of acronyms into your home\r\n");
+  dprintf(fd, "May the only board you feel be a game\r\n");
 }
 
 /*

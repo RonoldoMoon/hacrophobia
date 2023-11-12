@@ -134,6 +134,8 @@ int main()  {
       recv(ClientSocket, buffer, buffersize, 0);    
       printf("%s", buffer);
       
+      welcome(ClientSocket);
+      
       while(1)  {
       
         //memset(buffer, 0, buffersize);
